@@ -7,13 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB3DC4A92294272C006BD29E /* CLTeacher.m in Sources */ = {isa = PBXBuildFile; fileRef = AB3DC4A02294272C006BD29E /* CLTeacher.m */; };
+		AB3DC4AA2294272C006BD29E /* CLTeacher+Test2.m in Sources */ = {isa = PBXBuildFile; fileRef = AB3DC4A12294272C006BD29E /* CLTeacher+Test2.m */; };
+		AB3DC4AB2294272C006BD29E /* CLRiver.m in Sources */ = {isa = PBXBuildFile; fileRef = AB3DC4A22294272C006BD29E /* CLRiver.m */; };
+		AB3DC4AC2294272C006BD29E /* CLTeacher+Test.m in Sources */ = {isa = PBXBuildFile; fileRef = AB3DC4A52294272C006BD29E /* CLTeacher+Test.m */; };
+		AB3DC4AD2294272C006BD29E /* CLTree.m in Sources */ = {isa = PBXBuildFile; fileRef = AB3DC4A72294272C006BD29E /* CLTree.m */; };
+		AB3DC4B42294273B006BD29E /* Student+Test.m in Sources */ = {isa = PBXBuildFile; fileRef = AB3DC4AE2294273B006BD29E /* Student+Test.m */; };
+		AB3DC4B52294273B006BD29E /* Student+Test2.m in Sources */ = {isa = PBXBuildFile; fileRef = AB3DC4AF2294273B006BD29E /* Student+Test2.m */; };
+		AB3DC4B62294273B006BD29E /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = AB3DC4B22294273B006BD29E /* Student.m */; };
 		ABFB66EA22890F0A00399A49 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ABFB66E922890F0A00399A49 /* main.m */; };
-		ABFB66FC22890F4000399A49 /* Student+Test.m in Sources */ = {isa = PBXBuildFile; fileRef = ABFB66F022890F3F00399A49 /* Student+Test.m */; };
-		ABFB66FD22890F4000399A49 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = ABFB66F122890F3F00399A49 /* Student.m */; };
 		ABFB66FE22890F4000399A49 /* CLPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = ABFB66F222890F3F00399A49 /* CLPerson.m */; };
 		ABFB66FF22890F4000399A49 /* CLPerson+Test2.m in Sources */ = {isa = PBXBuildFile; fileRef = ABFB66F522890F3F00399A49 /* CLPerson+Test2.m */; };
 		ABFB670022890F4000399A49 /* CLPerson+Test.m in Sources */ = {isa = PBXBuildFile; fileRef = ABFB66F922890F4000399A49 /* CLPerson+Test.m */; };
-		ABFB670122890F4000399A49 /* Student+Test2.m in Sources */ = {isa = PBXBuildFile; fileRef = ABFB66FB22890F4000399A49 /* Student+Test2.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,20 +34,30 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		AB3DC49F2294272C006BD29E /* CLTeacher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLTeacher.h; sourceTree = "<group>"; };
+		AB3DC4A02294272C006BD29E /* CLTeacher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLTeacher.m; sourceTree = "<group>"; };
+		AB3DC4A12294272C006BD29E /* CLTeacher+Test2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CLTeacher+Test2.m"; sourceTree = "<group>"; };
+		AB3DC4A22294272C006BD29E /* CLRiver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLRiver.m; sourceTree = "<group>"; };
+		AB3DC4A32294272C006BD29E /* CLTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLTree.h; sourceTree = "<group>"; };
+		AB3DC4A42294272C006BD29E /* CLTeacher+Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CLTeacher+Test.h"; sourceTree = "<group>"; };
+		AB3DC4A52294272C006BD29E /* CLTeacher+Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CLTeacher+Test.m"; sourceTree = "<group>"; };
+		AB3DC4A62294272C006BD29E /* CLTeacher+Test2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CLTeacher+Test2.h"; sourceTree = "<group>"; };
+		AB3DC4A72294272C006BD29E /* CLTree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLTree.m; sourceTree = "<group>"; };
+		AB3DC4A82294272C006BD29E /* CLRiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLRiver.h; sourceTree = "<group>"; };
+		AB3DC4AE2294273B006BD29E /* Student+Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Student+Test.m"; sourceTree = "<group>"; };
+		AB3DC4AF2294273B006BD29E /* Student+Test2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Student+Test2.m"; sourceTree = "<group>"; };
+		AB3DC4B02294273B006BD29E /* Student+Test2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Student+Test2.h"; sourceTree = "<group>"; };
+		AB3DC4B12294273B006BD29E /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		AB3DC4B22294273B006BD29E /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		AB3DC4B32294273B006BD29E /* Student+Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Student+Test.h"; sourceTree = "<group>"; };
 		ABFB66E622890F0A00399A49 /* OBJC_LoadMethod */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OBJC_LoadMethod; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABFB66E922890F0A00399A49 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		ABFB66F022890F3F00399A49 /* Student+Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Student+Test.m"; sourceTree = "<group>"; };
-		ABFB66F122890F3F00399A49 /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
 		ABFB66F222890F3F00399A49 /* CLPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLPerson.m; sourceTree = "<group>"; };
 		ABFB66F322890F3F00399A49 /* CLPerson+Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CLPerson+Test.h"; sourceTree = "<group>"; };
-		ABFB66F422890F3F00399A49 /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
 		ABFB66F522890F3F00399A49 /* CLPerson+Test2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CLPerson+Test2.m"; sourceTree = "<group>"; };
 		ABFB66F622890F3F00399A49 /* CLPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLPerson.h; sourceTree = "<group>"; };
-		ABFB66F722890F3F00399A49 /* Student+Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Student+Test.h"; sourceTree = "<group>"; };
-		ABFB66F822890F4000399A49 /* Student+Test2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Student+Test2.h"; sourceTree = "<group>"; };
 		ABFB66F922890F4000399A49 /* CLPerson+Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CLPerson+Test.m"; sourceTree = "<group>"; };
 		ABFB66FA22890F4000399A49 /* CLPerson+Test2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CLPerson+Test2.h"; sourceTree = "<group>"; };
-		ABFB66FB22890F4000399A49 /* Student+Test2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Student+Test2.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,12 +97,22 @@
 				ABFB66F922890F4000399A49 /* CLPerson+Test.m */,
 				ABFB66FA22890F4000399A49 /* CLPerson+Test2.h */,
 				ABFB66F522890F3F00399A49 /* CLPerson+Test2.m */,
-				ABFB66F422890F3F00399A49 /* Student.h */,
-				ABFB66F122890F3F00399A49 /* Student.m */,
-				ABFB66F722890F3F00399A49 /* Student+Test.h */,
-				ABFB66F022890F3F00399A49 /* Student+Test.m */,
-				ABFB66F822890F4000399A49 /* Student+Test2.h */,
-				ABFB66FB22890F4000399A49 /* Student+Test2.m */,
+				AB3DC4A82294272C006BD29E /* CLRiver.h */,
+				AB3DC4A22294272C006BD29E /* CLRiver.m */,
+				AB3DC49F2294272C006BD29E /* CLTeacher.h */,
+				AB3DC4A02294272C006BD29E /* CLTeacher.m */,
+				AB3DC4A42294272C006BD29E /* CLTeacher+Test.h */,
+				AB3DC4A52294272C006BD29E /* CLTeacher+Test.m */,
+				AB3DC4A62294272C006BD29E /* CLTeacher+Test2.h */,
+				AB3DC4A12294272C006BD29E /* CLTeacher+Test2.m */,
+				AB3DC4A32294272C006BD29E /* CLTree.h */,
+				AB3DC4A72294272C006BD29E /* CLTree.m */,
+				AB3DC4B12294273B006BD29E /* Student.h */,
+				AB3DC4B22294273B006BD29E /* Student.m */,
+				AB3DC4B32294273B006BD29E /* Student+Test.h */,
+				AB3DC4AE2294273B006BD29E /* Student+Test.m */,
+				AB3DC4B02294273B006BD29E /* Student+Test2.h */,
+				AB3DC4AF2294273B006BD29E /* Student+Test2.m */,
 			);
 			path = OBJC_LoadMethod;
 			sourceTree = "<group>";
@@ -148,13 +173,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB3DC4B52294273B006BD29E /* Student+Test2.m in Sources */,
+				AB3DC4A92294272C006BD29E /* CLTeacher.m in Sources */,
+				AB3DC4AC2294272C006BD29E /* CLTeacher+Test.m in Sources */,
+				AB3DC4AD2294272C006BD29E /* CLTree.m in Sources */,
+				AB3DC4B42294273B006BD29E /* Student+Test.m in Sources */,
 				ABFB66EA22890F0A00399A49 /* main.m in Sources */,
-				ABFB66FC22890F4000399A49 /* Student+Test.m in Sources */,
-				ABFB66FD22890F4000399A49 /* Student.m in Sources */,
-				ABFB66FF22890F4000399A49 /* CLPerson+Test2.m in Sources */,
-				ABFB66FE22890F4000399A49 /* CLPerson.m in Sources */,
-				ABFB670122890F4000399A49 /* Student+Test2.m in Sources */,
 				ABFB670022890F4000399A49 /* CLPerson+Test.m in Sources */,
+				AB3DC4AB2294272C006BD29E /* CLRiver.m in Sources */,
+				ABFB66FF22890F4000399A49 /* CLPerson+Test2.m in Sources */,
+				AB3DC4AA2294272C006BD29E /* CLTeacher+Test2.m in Sources */,
+				ABFB66FE22890F4000399A49 /* CLPerson.m in Sources */,
+				AB3DC4B62294273B006BD29E /* Student.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

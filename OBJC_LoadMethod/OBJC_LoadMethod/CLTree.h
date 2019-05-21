@@ -1,5 +1,5 @@
 //
-//  main.m
+//  CLTree.h
 //  OBJC_LoadMethod
 //  
 //  ******************** ****************** ********************
@@ -31,44 +31,11 @@
     
 
 #import <Foundation/Foundation.h>
-#import "CLPerson.h"
-#import <objc/runtime.h>
 
-void printMethodNamesOfClass(Class cls) {
-    unsigned int count;
-    
-    //获得方法列表
-    Method *methodList = class_copyMethodList(cls, &count);
-    //存储方法名
-    NSMutableString *methodNames = [NSMutableString string];
-    
-    //遍历所有的方法
-    for (int i = 0; i < count; i++) {
-        //获得方法
-        Method method = methodList[i];
-        //h转成方法名
-        NSString *methodName = NSStringFromSelector(method_getName(method));
-        //拼接方法名
-        [methodNames appendString:methodName];
-        [methodNames appendString:@", "];
-    }
-    
-    //释放
-    free(methodList);
-    
-    
-    
-    //打印方法名
-    NSLog(@"%@  %@",cls, methodNames);
-}
+NS_ASSUME_NONNULL_BEGIN
 
-//printMethodNamesOfClass(object_getClass([CLPerson class]));
+@interface CLTree : NSObject
 
-int main(int argc, const char * argv[]) {
-    @autoreleasepool {
-        
-        NSLog(@"开始main方法");
-        [CLPerson test];
-    }
-    return 0;
-}
+@end
+
+NS_ASSUME_NONNULL_END

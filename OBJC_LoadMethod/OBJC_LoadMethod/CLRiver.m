@@ -1,5 +1,5 @@
 //
-//  main.m
+//  CLRiver.m
 //  OBJC_LoadMethod
 //  
 //  ******************** ****************** ********************
@@ -30,45 +30,11 @@
 //  Copyright © 2019 RUNNING_NIUER. All rights reserved.
     
 
-#import <Foundation/Foundation.h>
-#import "CLPerson.h"
-#import <objc/runtime.h>
+#import "CLRiver.h"
 
-void printMethodNamesOfClass(Class cls) {
-    unsigned int count;
-    
-    //获得方法列表
-    Method *methodList = class_copyMethodList(cls, &count);
-    //存储方法名
-    NSMutableString *methodNames = [NSMutableString string];
-    
-    //遍历所有的方法
-    for (int i = 0; i < count; i++) {
-        //获得方法
-        Method method = methodList[i];
-        //h转成方法名
-        NSString *methodName = NSStringFromSelector(method_getName(method));
-        //拼接方法名
-        [methodNames appendString:methodName];
-        [methodNames appendString:@", "];
-    }
-    
-    //释放
-    free(methodList);
-    
-    
-    
-    //打印方法名
-    NSLog(@"%@  %@",cls, methodNames);
+@implementation CLRiver
++(void)load
+{
+    NSLog(@"CLRiver + load");
 }
-
-//printMethodNamesOfClass(object_getClass([CLPerson class]));
-
-int main(int argc, const char * argv[]) {
-    @autoreleasepool {
-        
-        NSLog(@"开始main方法");
-        [CLPerson test];
-    }
-    return 0;
-}
+@end
